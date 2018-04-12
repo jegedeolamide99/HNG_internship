@@ -1,9 +1,21 @@
+:root {
+  --primaryColor: #271F3E;
+  --buttonPrimaryColor: #CDD0E0;
+  --buttonSecondaryColor: #F2F2F2;
+  --normalFont: 1rem;
+  --midFont: 1.125rem;
+  --bigFont: 2.25rem;
+  --shadow: rgba(0, 0, 0, 0.25);
+}
+*,::after,::before {
+  box-sizing:border-box
+}
 body {
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: var(--primaryColor), #271F3E;
   text-align: left;
   margin: 0;
   background-color: #fff;
