@@ -27,9 +27,17 @@ body {
   flex-wrap: wrap;
 }
 .hng__column {
+  display: flex;
   position: relative;
   width: 100%;
   min-height: 1px;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+footer {
+  padding: 1rem 0;
+  text-align: right;
 }
 /* Media Queries */
 @media screen and (min-width:576px) {
